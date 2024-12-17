@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Author" content="Marko Milković" />
+  <title>CAPTCHA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="captcha-container">
+    <h1>CAPTCHA Verifikacija</h1>
+
+    <div class="captcha-box">
+      <span id="captcha"></span>
+      <button id="refresh-captcha" title="Osvježi CAPTCHU">🔄</button>
+    </div>
+
+    <input type="text" id="captcha-input" placeholder="Unesi CAPTCHA kod" />
+    <button id="verify-captcha">Veirificiraj</button>
+    <p id="captcha-message"></p>
+
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
